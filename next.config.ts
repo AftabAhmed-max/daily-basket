@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   // Allow testing on the phone over the LAN during `next dev`.
-  allowedDevOrigins: ["192.168.0.113", "localhost", "127.0.0.1"],
+  allowedDevOrigins: ["192.168.0.102", "localhost", "127.0.0.1"],
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
